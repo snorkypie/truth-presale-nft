@@ -1,0 +1,26 @@
+{
+  "name": "presale-nfts",
+  "packageManager": "yarn@3.3.0",
+  "version": "1.0.0",
+  "description": "Check how many presale NFTs will be minted",
+  "main": "src/main.ts",
+  "scripts": {
+    "fetch": "ts-node src/main.ts",
+    "mints": "ts-node src/mints.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@tsconfig/node18-strictest": "^1.0.0",
+    "@types/async-retry": "^1.4.5",
+    "@types/node": "^18.11.9",
+    "async-retry": "^1.3.3",
+    "decimal.js": "^10.4.2",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
